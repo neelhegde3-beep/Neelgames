@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.arena {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fighter {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.health-bar {
+  height: 20px;
+  background-color: red;
+  margin-bottom: 10px;
+  transition: width 0.3s ease;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}
+
+#log {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
